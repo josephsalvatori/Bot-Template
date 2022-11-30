@@ -1,0 +1,75 @@
+- User lands on Dropout.tv, not authorized
+- User enters email address into passwordless login
+- User recieves email
+- User clicks "Login" button in email
+- User token stored (cookies/local)
+	- Expiration would need to check regularly for account status (on load?)
+
+- Video Authorization occurs on navigation
+- Browse have logged in / logged out states
+- Videos have logged in / logged out states
+
+- Page module runs off configuration for https://dev.vhx.tv/docs/api/#videos-list
+	- Could feed in unauthenticated into a dynamic page builder module
+
+- Subscription page runs off https://dev.vhx.tv/docs/api/#product-retrieve
+
+REDIRECT
+- Dropout.tv
+	- Have this be a landing page
+		- domain redirect? scripted via GTM?
+		-
+- Refersion
+	- Implementation via GTM
+- Editorial
+	- Mixed content
+- Storefront
+	- Lowest priority
+
+All TODOS:
+REP: (CAA)
+GAME DEV MEETING:
+	- Capitalize on other monitazation options
+	- Other digital products
+	- Digital downloads (Shopify, bundled with mixed media)
+		- Music
+		- Comic
+	- Gated Access (how?)
+
+	- Game Changer (game)
+		- competes almost with the core service, ala secondary channel
+		- digital music (improve songs from the show?)
+		- sense of scale
+			- someone to steer in the right direction
+
+	- How could Zero play a role?
+		-
+
+	- Game Changer
+		- party game?
+		- improve game?
+		- mystery game?
+		- small bite games?
+		- performance, played live (multiplayer), or (alone)
+			- performance:
+				- Maybe do I hear a dollar
+				- Sponser episode
+				- Ham it up
+				- Next slide please
+				- Sam says
+				- Like my coffee
+				- Jackbox-like
+					- can someone play host?
+					- prompt based
+				- (Conveyer Belt game)
+			- played live?
+				-
+			- played solo?
+				-
+
+	- Expansion of content
+	- Expansion of product
+	- To gaming
+
+
+TODO: Grid based schedule, full-page,
