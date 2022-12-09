@@ -9,7 +9,7 @@ export async function POST({ request }) {
 		errors: []
 	};
 
-	console.log(returnObj);
+	console.log(JSON.stringify(returnObj));
 
 	/**
 	 * Write stuff below this
