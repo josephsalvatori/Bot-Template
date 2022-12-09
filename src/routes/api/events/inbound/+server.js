@@ -4,7 +4,7 @@ import { json } from "@sveltejs/kit";
 export async function POST({ request }) {
 
 	let returnObj = {
-		data: {},
+		data: request,
 		errors: []
 	};
 
@@ -18,5 +18,5 @@ export async function POST({ request }) {
 	/**
 	 * Write stuff above this
 	 */
-	return;
+	return json(returnObj);
 };
