@@ -3,20 +3,20 @@ import { json } from "@sveltejs/kit";
 /** @type {import('./$types').RequestHandler} */
 export async function POST({ request }) {
 
+	let data = await request.json();
 	let returnObj = {
-		data: request,
+		data: data,
 		errors: []
 	};
+
+	console.log(returnObj);
 
 	/**
 	 * Write stuff below this
 	 */
-	console.log(request);
-
-
 
 	/**
 	 * Write stuff above this
 	 */
-	return json(returnObj);
+	return json({ "challenge": data.challenge });
 };
